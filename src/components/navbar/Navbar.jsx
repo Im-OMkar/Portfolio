@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {HashLink} from "react-router-hash-link";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
@@ -20,19 +21,19 @@ const Navbar = () => {
                   <span className="text-[#C778DD] font-medium">#</span>home
                 </li>
               </a>
-              <a href="#">
+              <a href="/#projects">
                 <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
                   <span className="text-[#C778DD] font-medium">#</span>work
                 </li>
               </a>
-              <a href="#">
+              <a href="#skills">
                 <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
-                  <span className="text-[#C778DD] font-medium">#</span>about-me
+                  <span className="text-[#C778DD] font-medium">#</span>skills
                 </li>
               </a>
-              <a href="#">
+              <a href="#contact">
                 <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
-                  <span className="text-[#C778DD] font-medium">#</span>contacts
+                  <span className="text-[#C778DD] font-medium">#</span>contact
                 </li>
               </a>
               <div onClick={()=>setToggle(false)} className="close absolute block md:hidden right-3 top-3">

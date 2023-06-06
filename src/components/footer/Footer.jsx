@@ -29,14 +29,14 @@ const Footer = () => {
             <h2 className=" text-white text-2xl font-medium mb-3">Media</h2>
             {/* media */}
             <div className="flex items-center gap-2">
-              <a href="#">
-                <img src={require("./imgs/Discord.png")} alt="" />
+              <a href="https://github.com/Im-OMkar/" className={"h-12 w-12"}>
+                <img src={require("./imgs/github.png")} alt="" />
               </a>
-              <a href="#">
-                <img src={require("./imgs/Figma.png")} alt="" />
+              <a href="https://www.linkedin.com/in/omkar99/" className={"h-12 w-12"}>
+                <img src={require("./imgs/linkedin.png")} alt="" />
               </a>
-              <a href="#">
-                <img src={require("./imgs/Github.png")} alt="" />
+              <a href="https://twitter.com/tt_omkar" className={"h-12 w-12"}>
+                <img src={require("./imgs/twitter.png")} alt="" />
               </a>
             </div>
           </div>

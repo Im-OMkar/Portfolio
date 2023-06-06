@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <>
-      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10" id="contact">
         {/* top */}
         <div className="">
           {/* header */}
@@ -19,8 +19,7 @@ const Contact = () => {
           {/* left */}
           <div className="left w-full md:w-1/2">
             <p className=" text-[#ABB2BF]">
-              I’m interested in freelance opportunities. However, if you have
-              other request or question, don’t hesitate to contact me
+              If you have other request or question, don’t hesitate to contact me
             </p>
           </div>
           {/* right */}
@@ -35,11 +34,11 @@ const Contact = () => {
                 {/* links */}
                 <div className="flex gap-1 items-center">
                   <img src={require("./imgs/Discord.png")} alt="" />
-                  <span className="text-[#ABB2BF]">!Elias#3519</span>
+                  <span className="text-[#ABB2BF]">L1ght#2648</span>
                 </div>
                 <div className="flex gap-1 items-center">
                   <img src={require("./imgs/Email.png")} alt="" />
-                  <span className="text-[#ABB2BF]">elias@elias.me</span>
+                  <span className="text-[#ABB2BF]">omkar.ingale@skiff.com</span>
                 </div>
               </div>
             </div>

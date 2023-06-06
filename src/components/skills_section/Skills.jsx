@@ -2,41 +2,39 @@ const Skills = () => {
   const skills = [
     {
       title: "Languages",
-      languages: ["TypeScript", "Lua", "Python", "JavaScript"],
+      languages: ["Python", "JavaScript", "TypeScript", "C++"],
     },
-    { title: "Databases", languages: ["SQLite", "PostgreSQL", "Mongo"] },
+    { title: "Databases", languages: ["PostgreSQL", "Redis", "Pinecone", "Chromadb"] },
+    // {
+    //   title: "Tools",
+    //   languages: [
+    //     "VSCode",
+    //     "Neovim",
+    //     "Linux",
+    //     "Figma",
+    //     "XFCE",
+    //     "Arch",
+    //     "Git",
+    //     "Font Awesome",
+    //   ],
+    // },
+    // {
+    //   title: "Other",
+    //   languages: ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"],
+    // },
     {
-      title: "Tools",
+      title: "Frameworks/Libraries",
       languages: [
-        "VSCode",
-        "Neovim",
-        "Linux",
-        "Figma",
-        "XFCE",
-        "Arch",
-        "Git",
-        "Font Awesome",
-      ],
-    },
-    {
-      title: "Other",
-      languages: ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"],
-    },
-    {
-      title: "Frameworks",
-      languages: [
-        "React",
-        "Vue",
-        "Disnake",
-        "Discord.js",
+        "ReactJs",
+        "NodeJS",
         "Flask",
-        "Express.js",
+        "Langchain",
       ],
     },
   ];
   return (
     <>
-      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10" id="skills">
         {/* top */}
         <div className=" mb-10">
           <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">

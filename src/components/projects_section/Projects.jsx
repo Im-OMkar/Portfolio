@@ -1,5 +1,5 @@
 import Project_card from "../project_card/Project_card";
-import first from "./imgs/Rectangle 22.jpg";
+import first from "./imgs/twLogo.png";
 import second from "./imgs/Rectangle 22.png";
 import third from "./imgs/Rectangle 22 (1).png";
 
@@ -8,9 +8,9 @@ const Projects = () => {
   const projects = [
     {
       img: first,
-      langs: ["html", "css", "javascript", "react", "tailwind css"],
-      title: "ChertNodes",
-      disc: "Minecraft servers hosting ",
+      langs: ["ReactJs","Typescript","NodeJs","Cypress"],
+      title: "NEO @ Thoughtworks",
+      disc: "an in-house built self-service developer experience portal that unifies and streamlines all the platform capabilities to help you focus on the most important thing, developing apps.\n ",
     },
     {
       img: second,
@@ -28,7 +28,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10" id="projects">
         {/* top */}
         <div className=" flex justify-between items-center gap-5">
           {/* left */}
@@ -39,11 +39,11 @@ const Projects = () => {
             <div className="line w-2/3 h-px bg-[#C778DD]"></div>
           </div>
           {/* right */}
-          <div className=" text-white font-medium">
-            <a href="">
-              <span>View all ~~&gt;</span>
-            </a>
-          </div>
+          {/*<div className=" text-white font-medium">*/}
+          {/*  <a href="">*/}
+          {/*    <span>View all ~~&gt;</span>*/}
+          {/*  </a>*/}
+          {/*</div>*/}
         </div>
         {/* bottom */}
         <div className="flex flex-wrap justify-between gap-4 my-12">
